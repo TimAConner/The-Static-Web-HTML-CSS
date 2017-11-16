@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 /****************
@@ -12,7 +13,7 @@ Class Selectors
 
 .card {
     border: 1px solid lightblue;
-    margin: 1em;
+    margin-bottom: 1em;
 }
 
 .card h2 {
@@ -61,6 +62,7 @@ Media Queries
     .flexbox {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
     
     .card {
